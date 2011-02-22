@@ -1,0 +1,78 @@
+/* style.css, Copyright (C) 2007 - 2010 YOOtheme GmbH */
+
+div.bubble div.yoo-tweet ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+}
+
+div.bubble div.yoo-tweet ul li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+div.bubble div.yoo-tweet ul li.width20 { width: 20%; }
+div.bubble div.yoo-tweet ul li.width25 { width: 25%; }
+div.bubble div.yoo-tweet ul li.width33 { width: 33.33%; }
+div.bubble div.yoo-tweet ul li.width50 { width: 50%; }
+
+/* bubble */
+div.bubble div.yoo-tweet div.bubble-t1 { background: url(styles/bubble/images/bubble_corners.png) 0 0 no-repeat; }
+
+div.bubble div.yoo-tweet div.bubble-t2 {
+	padding: 0px 5px 0px 5px;	
+	background: url(styles/bubble/images/bubble_corners.png) 100% -5px no-repeat;
+}
+
+div.bubble div.yoo-tweet div.bubble-t3 {
+	height: 5px;
+	background: url(styles/bubble/images/bubble_corners.png) 0 -10px repeat-x;
+}
+
+div.bubble div.yoo-tweet div.bubble-1 { background: url(styles/bubble/images/bubble_edges.png) 0 0 repeat-y; }
+
+div.bubble div.yoo-tweet div.bubble-2 { 
+	padding: 0px 5px 0px 5px;
+	background: url(styles/bubble/images/bubble_edges.png) 100% 0 repeat-y;
+}
+
+div.bubble div.yoo-tweet div.bubble-3 { 
+	padding: 10px;
+	height: 100px;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+div.bubble div.yoo-tweet div.bubble-b1 { background: url(styles/bubble/images/bubble_corners.png) 0 -15px no-repeat; }
+
+div.bubble div.yoo-tweet div.bubble-b2 {
+	padding: 0px 5px 0px 40px;	
+	background: url(styles/bubble/images/bubble_corners.png) 100% -25px no-repeat;
+}
+
+div.bubble div.yoo-tweet div.bubble-b3 {
+	height: 10px;
+	background: url(styles/bubble/images/bubble_corners.png) 0 -35px repeat-x;
+}
+
+/* meta */
+div.bubble div.yoo-tweet div.meta {
+	line-height: 14px;
+	overflow: hidden;
+}
+
+div.bubble div.yoo-tweet div.meta a.image {
+	display: block;
+	margin: 0px 5px 0px 5px;
+	padding: 3px;
+	border: 1px solid #c8c8c8;
+	background: #ffffff;
+	float: left;
+}
+
+div.bubble div.yoo-tweet div.meta a.image img { float: left; }
+
+div.bubble div.yoo-tweet div.meta div.author { margin-top: 5px; }
+div.bubble div.yoo-tweet div.meta div.date { font-size: 10px; }

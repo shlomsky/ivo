@@ -1,0 +1,30 @@
+/* (C) 2007 YOOtheme.com */
+
+a:focus { outline: none; }
+
+div.yoo-slider { 
+	overflow: hidden;
+	position: relative;
+}
+
+div.yoo-slider ul.list {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+ 
+div.yoo-slider ul.list .item {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+
+div.default-v div.yoo-slider ul.list .item, div.photo-v div.yoo-slider ul.list .item {
+	float: none;
+}
+
+div.yoo-slider ul.list .slide {
+	overflow: hidden;
+}

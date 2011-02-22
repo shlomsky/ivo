@@ -1,0 +1,1 @@
+a:2:{s:5:"check";s:16:"2011-02-21 5.5.0";s:4:"data";s:166:"{"status":"update-available","message":"New version available! <a href=\"http:\/\/www.yootheme.com\" target=\"_blank\">Download Joomla 1.5 Spark Template 5.5.2<\/a>"}";}

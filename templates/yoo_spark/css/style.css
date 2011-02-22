@@ -1,0 +1,121 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+
+/* BACKGROUND */
+.background-wings #page-body .page-body-1 { background-image: url(../images/background/wings_img.png); }
+.background-wings #page-body { background-image: url(../images/background/blue/wings_bg.jpg); }
+.background-wings.style-red #page-body { background-image: url(../images/background/red/wings_bg.jpg); }
+.background-wings.style-green #page-body { background-image: url(../images/background/green/wings_bg.jpg); }
+.background-wings.style-brown #page-body { background-image: url(../images/background/brown/wings_bg.jpg); }
+.background-wings.style-pink #page-body { background-image: url(../images/background/pink/wings_bg.jpg); }
+.background-wings.style-lilac #page-body { background-image: url(../images/background/lilac/wings_bg.jpg); }
+.background-wings.style-turquoise #page-body { background-image: url(../images/background/turquoise/wings_bg.jpg); }
+
+.background-wings.nobganimation #page-body { background-image: url(../images/background/blue/wings_bg_static.jpg); }
+.background-wings.style-red.nobganimation #page-body { background-image: url(../images/background/red/wings_bg_static.jpg); }
+.background-wings.style-green.nobganimation #page-body { background-image: url(../images/background/green/wings_bg_static.jpg); }
+.background-wings.style-brown.nobganimation #page-body { background-image: url(../images/background/brown/wings_bg_static.jpg); }
+.background-wings.style-pink.nobganimation #page-body { background-image: url(../images/background/pink/wings_bg_static.jpg); }
+.background-wings.style-lilac.nobganimation #page-body { background-image: url(../images/background/lilac/wings_bg_static.jpg); }
+.background-wings.style-turquoise.nobganimation #page-body { background-image: url(../images/background/turquoise/wings_bg_static.jpg); }
+
+.background-disco #page-body .page-body-1 { background-image: url(../images/background/disco_img.png); }
+.background-disco #page-body { background-image: url(../images/background/blue/disco_bg.jpg); }
+.background-disco.style-red #page-body { background-image: url(../images/background/red/disco_bg.jpg); }
+.background-disco.style-green #page-body { background-image: url(../images/background/green/disco_bg.jpg); }
+.background-disco.style-brown #page-body { background-image: url(../images/background/brown/disco_bg.jpg); }
+.background-disco.style-pink #page-body { background-image: url(../images/background/pink/disco_bg.jpg); }
+.background-disco.style-lilac #page-body { background-image: url(../images/background/lilac/disco_bg.jpg); }
+.background-disco.style-turquoise #page-body { background-image: url(../images/background/turquoise/disco_bg.jpg); }
+
+.background-disco.nobganimation #page-body { background-image: url(../images/background/blue/disco_bg_static.jpg); }
+.background-disco.style-red.nobganimation #page-body { background-image: url(../images/background/red/disco_bg_static.jpg); }
+.background-disco.style-green.nobganimation #page-body { background-image: url(../images/background/green/disco_bg_static.jpg); }
+.background-disco.style-brown.nobganimation #page-body { background-image: url(../images/background/brown/disco_bg_static.jpg); }
+.background-disco.style-pink.nobganimation #page-body { background-image: url(../images/background/pink/disco_bg_static.jpg); }
+.background-disco.style-lilac.nobganimation #page-body { background-image: url(../images/background/lilac/disco_bg_static.jpg); }
+.background-disco.style-turquoise.nobganimation #page-body { background-image: url(../images/background/turquoise/disco_bg_static.jpg); }
+
+.background-jellyfish #page-body .page-body-1 { background-image: url(../images/background/jellyfish_img.png); }
+.background-jellyfish #page-body { background-image: url(../images/background/blue/jellyfish_bg.jpg); }
+.background-jellyfish.nobganimation #page-body { background-image: url(../images/background/blue/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-red #page-body { background-image: url(../images/background/red/jellyfish_bg.jpg); }
+.background-jellyfish.style-green #page-body { background-image: url(../images/background/green/jellyfish_bg.jpg); }
+.background-jellyfish.style-brown #page-body { background-image: url(../images/background/brown/jellyfish_bg.jpg); }
+.background-jellyfish.style-pink #page-body { background-image: url(../images/background/pink/jellyfish_bg.jpg); }
+.background-jellyfish.style-lilac #page-body { background-image: url(../images/background/lilac/jellyfish_bg.jpg); }
+.background-jellyfish.style-turquoise #page-body { background-image: url(../images/background/turquoise/jellyfish_bg.jpg); }
+
+.background-jellyfish.nobganimation #page-body { background-image: url(../images/background/blue/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-red.nobganimation #page-body { background-image: url(../images/background/red/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-green.nobganimation #page-body { background-image: url(../images/background/green/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-brown.nobganimation #page-body { background-image: url(../images/background/brown/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-pink.nobganimation #page-body { background-image: url(../images/background/pink/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-lilac.nobganimation #page-body { background-image: url(../images/background/lilac/jellyfish_bg_static.jpg); }
+.background-jellyfish.style-turquoise.nobganimation #page-body { background-image: url(../images/background/turquoise/jellyfish_bg_static.jpg); }
+
+.background-nebula #page-body .page-body-1 { background-image: url(../images/background/nebula_img.png); }
+.background-nebula #page-body { background-image: url(../images/background/blue/nebula_bg.jpg); }
+.background-nebula.style-red #page-body { background-image: url(../images/background/red/nebula_bg.jpg); }
+.background-nebula.style-green #page-body { background-image: url(../images/background/green/nebula_bg.jpg); }
+.background-nebula.style-brown #page-body { background-image: url(../images/background/brown/nebula_bg.jpg); }
+.background-nebula.style-pink #page-body { background-image: url(../images/background/pink/nebula_bg.jpg); }
+.background-nebula.style-lilac #page-body { background-image: url(../images/background/lilac/nebula_bg.jpg); }
+.background-nebula.style-turquoise #page-body { background-image: url(../images/background/turquoise/nebula_bg.jpg); }
+
+.background-nebula.nobganimation #page-body { background-image: url(../images/background/blue/nebula_bg_static.jpg); }
+.background-nebula.style-red.nobganimation #page-body { background-image: url(../images/background/red/nebula_bg_static.jpg); }
+.background-nebula.style-green.nobganimation #page-body { background-image: url(../images/background/green/nebula_bg_static.jpg); }
+.background-nebula.style-brown.nobganimation #page-body { background-image: url(../images/background/brown/nebula_bg_static.jpg); }
+.background-nebula.style-pink.nobganimation #page-body { background-image: url(../images/background/pink/nebula_bg_static.jpg); }
+.background-nebula.style-lilac.nobganimation #page-body { background-image: url(../images/background/lilac/nebula_bg_static.jpg); }
+.background-nebula.style-turquoise.nobganimation #page-body { background-image: url(../images/background/turquoise/nebula_bg_static.jpg); }
+
+.background-spotlights #page-body .page-body-1 { background-image: url(../images/background/spotlights_img.png); }
+.background-spotlights #page-body { background-image: url(../images/background/blue/spotlights_bg.jpg); }
+.background-spotlights.style-red #page-body { background-image: url(../images/background/red/spotlights_bg.jpg); }
+.background-spotlights.style-green #page-body { background-image: url(../images/background/green/spotlights_bg.jpg); }
+.background-spotlights.style-brown #page-body { background-image: url(../images/background/brown/spotlights_bg.jpg); }
+.background-spotlights.style-pink #page-body { background-image: url(../images/background/pink/spotlights_bg.jpg); }
+.background-spotlights.style-lilac #page-body { background-image: url(../images/background/lilac/spotlights_bg.jpg); }
+.background-spotlights.style-turquoise #page-body { background-image: url(../images/background/turquoise/spotlights_bg.jpg); }
+
+.background-spotlights.nobganimation #page-body { background-image: url(../images/background/blue/spotlights_bg_static.jpg); }
+.background-spotlights.style-red.nobganimation #page-body { background-image: url(../images/background/red/spotlights_bg_static.jpg); }
+.background-spotlights.style-green.nobganimation #page-body { background-image: url(../images/background/green/spotlights_bg_static.jpg); }
+.background-spotlights.style-brown.nobganimation #page-body { background-image: url(../images/background/brown/spotlights_bg_static.jpg); }
+.background-spotlights.style-pink.nobganimation #page-body { background-image: url(../images/background/pink/spotlights_bg_static.jpg); }
+.background-spotlights.style-lilac.nobganimation #page-body { background-image: url(../images/background/lilac/spotlights_bg_static.jpg); }
+.background-spotlights.style-turquoise.nobganimation #page-body { background-image: url(../images/background/turquoise/spotlights_bg_static.jpg); }
+
+.nobganimation #page-body { background-repeat: no-repeat; }
+.nobganimation #page-body .page-body-1 { background: none; }
+
+/* FONTS */
+body.font-lucida,
+.font-lucida h1,
+.font-lucida h2,
+.font-lucida h3,
+.font-lucida h4,
+.font-lucida h5,
+.font-lucida h6,
+.font-lucida div.mod-line-header-center h3.header span.subtitle { font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; }
+
+body.font-georgia,
+.font-georgia h1,
+.font-georgia h2,
+.font-georgia h3,
+.font-georgia h4,
+.font-georgia h5,
+.font-georgia h6,
+.font-georgia div.mod-line-header-center h3.header span.subtitle { font-family: Georgia, "Times New Roman", Times, serif; }
+
+body.font-trebuchet,
+.font-trebuchet h1,
+.font-trebuchet h2,
+.font-trebuchet h3,
+.font-trebuchet h4,
+.font-trebuchet h5,
+.font-trebuchet h6,
+.font-trebuchet div.mod-line-header-center h3.header span.subtitle { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }

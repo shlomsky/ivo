@@ -1,0 +1,37 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* typography */
+h2,
+h4,
+h6 { color: #A67DE3; }
+
+/* menus */
+#menu li.level2 .current span.bg { color: #A67DE3; }
+#menu a.level3 span.bg,
+#menu span.level3 span.bg {	background-image: url(../../images/styles/lilac/menu_level3_item.png); }
+
+div.mod-line ul.menu a.current span.bg { color: #A67DE3; }
+div.mod-line ul.menu a:hover span.bg,
+div.mod-line ul.menu span:hover span.bg { color: #FFFFFF; }
+div.mod-line ul.menu li.level2 span.bg { background-image: url(../../images/styles/lilac/submenu_level2_item.png); }
+
+/* modules */
+div.mod-frame-glitter div.box-1 { 
+	background-image: url(../../images/styles/lilac/module_frame_glitter_bg.png);
+	-moz-box-shadow: 0 0 20px rgba(150,65,130,0.3);
+	-webkit-box-shadow: 0 0 20px rgba(150,65,130,0.3);
+	box-shadow: 0 0 20px rgba(150,65,130,0.3);
+}
+div.mod-frame-glitter div.box-2 { background-image: url(../../images/styles/lilac/module_frame_glitter_top.png); }
+
+div.mod-line h3.header span.subtitle { color: #A67DE3; }
+
+/* system */
+#searchbox .results li.result.selected h3,
+#searchbox .results li.more-results:hover {	color: #A67DE3; }
+
+#system .item > .links a:hover,
+#page a.readmore:hover {
+	border-color: #8867CB;
+	background-color: #8867CB;
+}

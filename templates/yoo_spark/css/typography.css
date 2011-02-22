@@ -1,0 +1,422 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * headings
+ */
+
+h1, h2, h3, h4, h5, h6 { font-family: Arial, Helvetica, sans-serif; }
+
+h1 {
+	font-weight: normal;
+	color: #F2F1F0;
+}
+
+#page h1 a {
+	color: #F2F1F0;
+	text-decoration: none;
+}
+
+h2 { color: #68ACF8; }
+h3 { color: #F2F1F0; }
+h4 { color: #68ACF8; }
+h5 { color: #F2F1F0; }
+h6 { color: #68ACF8; }
+
+h1 { font-size: 24px; line-height: 26px; }
+h2 { font-size: 22px; line-height: 24px; }
+
+/*
+ * anchor
+ */
+
+a:link,
+a:visited { color: #ffffff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+a.icon-folder {
+        padding-left: 17px;
+        background: url(../images/typography/icon_folder.png) 0 40% no-repeat;
+}
+
+a.icon-file {
+        padding-left: 17px;
+        background: url(../images/typography/icon_file.png) 0 40% no-repeat;
+}
+
+a.icon-download {
+        padding-left: 17px;
+        background: url(../images/typography/icon_download.png) 0 40% no-repeat;
+}
+
+a.icon-external {
+        padding-left: 17px;
+        background: url(../images/typography/icon_external.png) 0 40% no-repeat;
+}
+
+a.icon-pdf {
+        padding-left: 17px;
+        background: url(../images/pdf_button.png) 0 40% no-repeat;
+}
+
+/*
+ * emphasis
+ */
+
+em.box { 
+	padding: 0px 3px 0px 3px;
+	border: 1px dotted #2F3235;
+	background: #000000;	
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+	white-space: nowrap;
+}
+
+/*
+ * unsorted lists
+ */
+
+/* icon style */
+ul.arrow,
+ul.checkbox,
+ul.check,
+ul.star {
+	margin: 10px 0px 10px 0px;
+	padding-left: 20px;
+	list-style: none;
+}
+
+ul.arrow li,
+ul.checkbox li,
+ul.check li,
+ul.star li {
+	margin: 5px 0px 5px 0px;
+	padding-left: 35px;
+	font-weight: bold;
+	line-height: 26px;  
+}
+
+ul.arrow li { background: url(../images/typography/list_arrow.png) 0 0 no-repeat; }
+ul.checkbox li { background: url(../images/typography/list_checkbox.png) 0 0 no-repeat; }
+ul.check li { background: url(../images/typography/list_check.png) 0 0 no-repeat; }
+ul.star li { background: url(../images/typography/list_star.png) 0 0 no-repeat; }
+
+/* links style */
+ul.links {
+	margin: 10px 0px 20px 0px;
+	padding-left: 0px;
+	list-style: none;
+}
+.module ul.links { margin: 0; }
+
+ul.links li {
+	padding-left: 30px;
+	height: 39px;
+	border-top: 1px solid #222426;
+	line-height: 39px;
+	background: url(../images/typography/list_links.png) 0px 0 no-repeat;
+	cursor: pointer;
+}
+
+ul.links li:first-child { border: none; }
+
+ul.links li:hover { background-position: 0px -40px; }
+
+#page ul.links li a {
+	display: block;
+	color: #7F8384;
+	text-decoration: none;
+}
+
+#page ul.links li a:hover {
+	color: #ffffff;
+	text-shadow: 0 0 1px rgba(0,0,0,1), 0 0 7px rgba(255,255,255,1);
+}
+
+/*
+ * ordered lists
+ */
+
+ol.disc {
+	margin: 10px 0px 10px 0px;
+	padding: 0px 0px 0px 45px;
+	background: url(../images/typography/list_disc.png) 20px 0px repeat-y;
+}
+
+ol.disc li {
+	margin: 5px 0px 5px 0px;
+	padding-left: 10px;
+	font-weight: bold;
+	line-height: 26px;  
+}
+
+/*
+ * horizontal rule
+ */
+ 
+hr.dotted {
+	margin: 15px 0px 15px 0px;
+	display: block;
+	background: url(../images/typography/line_dotted.png) 0 0 repeat-x;
+	height: 1px;
+	border: none;
+}
+
+
+/*
+ * highlighted div and span tags
+ */
+
+span.note,
+span.info,
+span.alert,
+span.download,
+span.tip { display: block; }
+
+div.note, span.note {
+	color: #969FAA;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 10px 5px 10px;
+	background: #212E3C;
+	border-top: 1px solid #283B50;
+	border-bottom: 1px solid #283B50;
+	text-align:justify;
+}
+
+div.info, span.info,
+div.alert, span.alert,
+div.download, span.download,
+div.tip, span.tip {
+	color: #969FAA;
+	margin: 10px 0px 10px 0px;
+	padding: 8px 10px 8px 40px;
+}
+
+div.info, span.info {
+	background: #212E3C url(../images/typography/box_info.png) 8px 5px no-repeat;
+	border-top: 1px solid #283B50;
+	border-bottom: 1px solid #283B50;
+}
+
+div.alert, span.alert {
+	background: #3F2323 url(../images/typography/box_alert.png) 8px 5px no-repeat;
+	border-top: 1px solid #542A2A;
+	border-bottom: 1px solid #542A2A;
+}
+
+div.download, span.download {
+	background: #303829 url(../images/typography/box_download.png) 8px 5px no-repeat;
+	border-top: 1px solid #3E4A32;
+	border-bottom: 1px solid #3E4A32;
+}
+
+div.tip, span.tip {
+	background: #34322C url(../images/typography/box_tip.png) 8px 5px no-repeat;
+	border-top: 1px solid #444137;
+	border-bottom: 1px solid #444137;
+}
+
+/*
+ * p tag with dropcaps
+ */
+ 
+p.dropcap:first-letter {
+	display: block;
+	margin: 7px 4px 0px 0px;
+	float: left;
+	font-size: 280%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*
+ * blockquotes
+ */
+
+blockquote { font-family: Georgia, "Times New Roman", Times, serif; }
+
+q.blockquote {
+	margin: 10px 0 10px 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 120%;
+}
+
+q.blockquote:first-letter { font-size: 150%; }
+
+q.blockquote:before,
+q.blockquote:after { content: ""; }
+
+blockquote.quotation {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 35px 10px 35px;
+	border: none;
+	background: url(../images/typography/blockquote_start.png) 0 0 no-repeat;
+	text-align:justify;
+}
+
+blockquote.quotation p {
+	margin: 0px -35px -10px 0px;
+	padding: 0px 35px 10px 0px;
+	background: url(../images/typography/blockquote_end.png) 100% 100% no-repeat;
+}
+
+/*
+ * floating boxes
+ */
+
+body .inset-left {
+	margin: 15px 15px 10px 0px;
+	float: left;
+}
+
+body .inset-right {
+	margin: 15px 0px 10px 15px;
+	float: right;
+}
+
+/*
+ * google fonts
+ */
+
+
+.webfonts #menu a.level1 span.bg,
+.webfonts #menu span.level1 span.bg,
+.webfonts .spotlight.fade.color h3 span.title,
+.webfonts .spotlight.bottom h3,
+.webfonts .module h3.header,
+.webfonts div.mod-line-header-center h3.header span.subtitle,
+.webfonts #system .title { 
+	font-family: 'Yanone Kaffeesatz';
+	letter-spacing: 0px;
+}
+
+.webfonts #menu a.level1 span.bg,
+.webfonts #menu span.level1 span.bg,
+.webfonts .module h3.header,
+.webfonts .module h3.header span.title,
+.webfonts div.mod-line-header-center h3.header span.subtitle  { font-size: 30px; }
+
+.webfonts #menu a.level1 span.subtitle,
+.webfonts #menu span.level1 span.subtitle { 
+	margin-top: -2px;
+	font-size: 14px;
+}
+
+.webfonts #menu li.level1:hover .level1 span.bg,
+.webfonts #menu li.remain .level1 span.bg,
+.webfonts #menu li.active .level1 span.bg { background-position: 0 33px; }
+
+.webfonts #menu a.level1 span.title,
+.webfonts #menu span.level1 span.title {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.webfonts div.mod-line h3.header,
+.webfonts div.mod-line h3.header span.title,
+.webfonts #system .title {
+	font-size: 38px;
+	line-height: 40px;
+}
+
+.webfonts .module h3.header span.subtitle {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.webfonts div.mod-line-header-center h3.header,
+.webfonts div.mod-line-header-center h3.header span.subtitle { 
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.webfonts div.mod-line-header-center h3.header span.title {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+/*
+ * spotlight
+ */
+
+.spotlight .spotlight1 { visibility: hidden; }
+
+.spotlight.fade .spotlight1 > div > a:first-child,
+.spotlight.bottom .spotlight1 > div > a:first-child {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+/* fade: zoom */
+.spotlight.fade.zoom .spotlight1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../images/spotlight_fade_zoom.png) 50% 50% no-repeat;
+}
+
+/* fade: color */
+.spotlight.fade.color .spotlight1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto !important;
+	padding: 20px;
+	background: #141516;
+}
+
+.spotlight.fade.color h3 {
+	position: absolute;
+	top: 37%;
+	left: 0;
+	right: 0;
+	margin: 0;
+	line-height: 23px;
+}
+.spotlight.fade.color h3 span {
+	display: block;
+	text-align: center;
+}
+.spotlight.fade.color h3 span.subtitle {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 15px;
+    font-style: italic;
+	color: #AAB3BE;
+}
+.spotlight.fade.color h3 span.title {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #F2F1F0;
+}
+
+/* top, bottom, left, right */
+.spotlight.bottom .spotlight1 > * {
+	padding: 15px;
+	background: #111;
+	color: #ffffff;
+}
+
+.spotlight.bottom h3 { 
+	margin: 0px 0px 3px 0px;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #F2F1F0;
+}
+
+.spotlight.bottom p { 
+	margin: 0;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 15px;
+    font-style: italic;
+	color: #AAB3BE;
+}

@@ -1,0 +1,7 @@
+/* ie6hacks.css, Copyright (C) 2007 - 2010 YOOtheme GmbH */
+
+div.bubble div.yoo-tweet ul,
+div.bubble div.yoo-tweet div.bubble-1 { zoom: 1; }
+
+div.bubble div.yoo-tweet div.bubble-t3,
+div.bubble div.yoo-tweet div.bubble-b3 { overflow: hidden; }

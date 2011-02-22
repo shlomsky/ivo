@@ -1,0 +1,75 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 240px;
+	height: 60px;
+	margin-left: -120px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+/* rss + twitter toolbar icons */
+#toolbar a.rss,
+#toolbar a.twitter {
+	display: inline-block;
+	margin-top: 7px;
+}
+
+/* demo content: icons page */
+.iconbox { 
+	padding: 20px;
+	background: #222426;
+	overflow: hidden; 
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* demo content: home page */
+.top-teaser .icon { 
+	width: 62px;
+	height: 62px;
+	margin-right: 7px;
+	float: left;
+}
+.top-teaser.framework .icon { background: #68acf8 url(../../../images/yootheme/home_top1.png) 0 0 no-repeat; }
+.top-teaser.layout .icon { background: #68acf8 url(../../../images/yootheme/home_top2.png) 0 0 no-repeat; }
+.top-teaser.speed .icon { background: #68acf8 url(../../../images/yootheme/home_top3.png) 0 0 no-repeat; }
+
+.style-red .top-teaser .icon { background-color: #DA4545; }
+.style-green .top-teaser .icon { background-color: #91B450; }
+.style-brown .top-teaser .icon { background-color: #A5964C; }
+.style-pink .top-teaser .icon { background-color: #C8408E; }
+.style-lilac .top-teaser .icon { background-color: #8867CB; }
+.style-turquoise .top-teaser .icon { background-color: #399999; }
+
+.top-teaser { text-transform: uppercase; }
+.top-teaser h1 { margin: 10px 0 5px 0; }
+.webfonts .top-teaser h1 { 
+	font-family: 'Yanone Kaffeesatz';
+	font-size: 30px;
+}
+.top-teaser p {
+	margin: 0 0 10px 0;
+	line-height: 15px;
+}
+
+.homebottomimage {
+	width: 850px;
+	height: 245px;
+	margin: -10px;
+	background: url(../../../images/yootheme/home_bottom.jpg) 0 0 no-repeat;
+}
+.style-red .homebottomimage { background: url(../../../images/yootheme/home_bottom_red.jpg) 0 0 no-repeat; }
+.style-green .homebottomimage { background: url(../../../images/yootheme/home_bottom_green.jpg) 0 0 no-repeat; }
+.style-brown .homebottomimage { background: url(../../../images/yootheme/home_bottom_brown.jpg) 0 0 no-repeat; }
+.style-pink .homebottomimage { background: url(../../../images/yootheme/home_bottom_pink.jpg) 0 0 no-repeat; }
+.style-lilac .homebottomimage{ background: url(../../../images/yootheme/home_bottom_lilac.jpg) 0 0 no-repeat; }
+.style-turquoise .homebottomimage { background: url(../../../images/yootheme/home_bottom_turquoise.jpg) 0 0 no-repeat; }
+
+ul.slick-rss-liststyle-frame{ margin:0 0 0 30px !important;}
+li.slick-rss-itemstyle-frame icon-message{list-style-type:square !important;}

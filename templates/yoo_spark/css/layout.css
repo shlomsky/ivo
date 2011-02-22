@@ -1,0 +1,310 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+ 
+ 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 150%;
+	color: #969FAA;
+	position: relative;
+}
+
+ 
+
+.wrapper { margin: auto; }
+
+#header {
+	margin: 0px 15px 10px 15px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	z-index: 10;
+	clear: both;
+}
+
+#top {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	clear: both;
+}
+
+#middle {
+	clear: both;
+	min-height: 300px;
+}
+
+#bottom {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	clear: both;
+}
+
+#footer {
+	position: relative;
+	margin: 0px 15px 0px 15px;
+	padding: 20px 0px 20px 0px;
+	clear: both;
+	color: #5A5C5E;
+	font-size: 10px;
+	text-align: center;
+}
+	
+ 
+ 
+#middle {
+	width: 100%;  
+	 
+	overflow: hidden;  
+	position: relative;  
+}
+
+#middle-expand {
+	width: 200%;
+}
+
+ 
+#main {
+	position: relative;
+	left: 50%;
+	width: 50%;
+	float: left;
+}
+
+#main-shift {
+	position: relative;
+	left: -100%;
+	 
+	 
+	overflow: hidden;
+}
+
+ 
+#left {
+	position: relative;
+	left: -50%;
+	 
+	float: left;
+	overflow:hidden;
+}
+
+ 
+#right {
+	 
+	 
+	position: relative;
+	float: left;
+	overflow:hidden;
+}
+
+ 
+
+#maintop,
+#contenttop {
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+#contentbottom,
+#mainbottom {
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+ 
+ 
+#mainmiddle {
+	width: 100%;  
+	 
+	overflow: hidden;  
+	position: relative;  
+}
+
+#mainmiddle-expand {
+	width: 200%;
+}
+
+ 
+#content {
+	position: relative;
+	left: 50%;
+	width: 50%;
+	float: left;
+}
+
+#content-shift {
+	position: relative;
+	left: -100%;
+	 
+	 
+	overflow: hidden;
+}
+
+ 
+#contentleft {
+	position: relative;
+	left: -50%;
+	 
+	float: left;
+	overflow:hidden;
+}
+
+ 
+#contentright {
+	 
+	 
+	position: relative;
+	float: left;
+	overflow:hidden;
+}
+
+ 
+
+.floatbox { overflow:hidden; }
+
+.float-left { float: left; overflow: hidden; }
+.float-right { float: right; overflow: hidden; }
+
+.width15 { width: 15%; }
+.width18 { width: 18%; }
+.width20 { width: 20%; }
+.width23 { width: 23%; }
+.width25 { width: 25%; }
+.width33 { width: 33%; }
+.width34 { width: 34%; }
+.width35 { width: 35%; }
+.width40 { width: 40%; }
+.width46 { width: 46%; }
+.width50 { width: 50%; }
+.width54 { width: 54%; }
+.width65 { width: 65%; }
+.width67 { width: 67%; }
+.width75 { width: 75%; }
+.width100 { width: 100%; }
+
+#top > .vertical,
+#bottom > .vertical { float: left; }
+
+ 
+
+body.yoopage { background: #0E0F0F; }
+#page-body .page-body-1 { 
+	padding-bottom: 40px;
+	background-position: 50% 40px;
+	background-repeat: repeat-x;
+}
+#page-body .page-body-2 { background: url(../images/toolbar_bg.png) 0 0 repeat-x; }
+#page-body { 
+	background-color: #141516;
+	background-position: 50% 40px;
+	background-repeat: repeat-x;
+}
+#page-footer { background: url(../images/page_footer_bg.jpg) 0 0 repeat-x; }
+
+ 
+
+#absolute {
+	position: absolute;
+	z-index: 15;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+ 
+
+#toolbar {
+	height: 40px;
+	padding: 0px 220px 0px 0px;
+	overflow: hidden;
+	color: #605B5B;
+	line-height: 40px;
+	font-size: 11px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+}
+
+#date {
+	padding: 0px 10px 0px 0px;
+	float: left;
+}
+
+#headerbar { 
+	padding: 30px 0px 0px 0px;
+	min-height: 90px;
+	overflow: hidden;
+}
+
+#logo {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+}
+
+#search {
+	position: absolute;
+	top: 7px;
+	right: 0px;
+	z-index: 12;
+}
+
+div.menubar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 35px;
+}
+
+#menu { margin: auto; }
+
+#banner {
+	position: absolute;
+	top: 138px;
+	right: -43px;
+	width: 0px;
+	z-index: 3;
+}
+
+ 
+
+#footer a.anchor {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+	width: 35px;
+	height: 35px;
+	background: url(../images/footer_anchor.png) 0 0 no-repeat;
+	display: block;
+	text-decoration: none;
+}
+
+#footer a.anchor:hover { background-position: 0 -40px; }
+
+ 
+
+#component {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+#left div.left-1,
+#contentleft div.contentleft-1 { 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-right: 1px solid #222426;
+}
+
+#right div.right-1,
+#contentright div.contentright-1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-left: 1px solid #222426;
+}
